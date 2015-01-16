@@ -1,0 +1,20 @@
+{
+  "name": "type",
+  "version": "1.0.0",
+  "description": "A type creator library.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "type",
+    "library",
+    "extend",
+    "iterator"
+  ],
+  "author": "Pierre Gaudichon",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
