@@ -4,7 +4,8 @@
   "description": "A type creator library.",
   "main": "bin/index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "install": "sh build_system.sh"
   },
   "keywords": [
     "type",
@@ -16,5 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^2.4.1"
-  }
+  },
+  "repository": "git://github.com/PierreGaudichon/type.git"
 }
